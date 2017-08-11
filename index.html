@@ -1,0 +1,33 @@
+<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
+<script type="text/javascript" src='main.js'></script>
+<head>
+  <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+  <div class="banner"><div class="top"><h1><a href='https://daringfireball.net/projects/markdown/' target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/64px-Markdown-mark.svg.png" style="height: 3vw;"></a> Markdown Previewer</h1></div></div>
+<div id="cheatSheet" class="cheatSht">
+  <div id="slide">
+    <table class="cheatTable">
+      <tr><th colspan="2">></th></tr>
+      <tr><td colspan="1"># A large heading</td><td><h1>Large</h1></td></tr>
+      <tr><td colspan="1">## A medium heading</td><td><h2>Medium</h2></td></tr>
+      <tr><td colspan="1">### A small heading</td><td><h3>Small</h3></td></tr>
+      <tr><td colspan="1">**This is bold text**</td><td><span style="font-weight: 900;">BOLD</span></td></tr>
+      <tr><td colspan="1">__so is this__</td><td><span style="font-weight: 900;">BOLD</span></td></tr>
+      <tr><td colspan="1">*This is italicized*</td><td><i>Italic</i></td></tr>
+      <tr><td colspan="1">_so is this_</td><td><i>Italic</i></td></tr>
+      <tr><td colspan="1">~~This was a mistake~~</td><td><s>I made a mistake</s></td></tr>
+      <tr><td colspan="1">> to quote text</td><td>|&nbsp;&nbsp;&nbsp;&nbsp;To be or not to be...</td></tr>
+      <tr><td colspan="1">`this is code`</td><td><code>var num = 0;</code></td></tr>
+      <tr><td colspan="1">```<br>this is multiple<br>lines of code<br>```</td><td><multi>var num = 0,<br>test = true;</multi></></td></tr>
+      <tr><td colspan="1">[title](www.link.com)</td><td><a href='https://mypaperbacks.com' target='_blank'>Books</a></td></tr>
+      <tr><td colspan="1">* this is a bullet list<br>- and so is this<br>+ and this too.</td><td><ul><li>First</li><br><li>Second</li><li>Third</li></ul></td></tr>
+      <tr><td colspan="1">![alt](http://my.png)</td><td><a href='https://codepen.io/AzFalconer/full/bRgpQx/' target='_blank'><img src='https://avatars-02.gitter.im/gh/uv/3/AzFalconer' alt="Dave" style="width: 3vw"></a></></td></tr>
+    </table>
+  </div>
+</div>
+<div class="entryWrap"><div class="header">Enter your text here...</div><textarea id="userText" autofocus></textarea></div>
+<div class="previewWrap"><div class="header">And preview it here.</div><div id="markedText" class="marked"></div></div>
+<br><br><div class="footer">Another <a href='https://codepen.io/AzFalconer/full/bRgpQx/' target='_blank'>David Darby</a> production made with &nbsp;<i class="fa fa-coffee" aria-hidden="true"></i>&nbsp; & lots of &nbsp;<i class="fa fa-book" aria-hidden="true"></i>&nbsp; and hopefully &nbsp;<i class="fa fa-bug" aria-hidden="true"></i>&nbsp; free. &copy; 2017</div>
+</body>

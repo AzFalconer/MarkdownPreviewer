@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Orbitron|Righteous|Exo|Mogra|Tangerine|Acme|OpenSans');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+* {box-sizing: border-box;}
+a {text-decoration: none; color: cornFlowerBlue;}
+i {color: white;}
+body {margin: 0 auto; background-color: #515A5A;}
+textarea {font-family: Arial, serif;font-size: 1vw;}
+.banner {background: #6CF;color: black;height: 5vw;padding: .5vw;}
+.top h1 {margin: 0;position: relative;font-family: Orbitron, serif;font-size: 3vw;font-weight: 900;display: inline-block;}
+.cheatSht {position: relative;width: 1vw;height: 85vh;z-index: 1}
+.cheatSht:hover #slide {transition: 1s;left: 0;}
+#slide {position: absolute;left: -19vw;width: 20vw;height: 85vh;background: #25262c;color: white;transition: .5s;z-index: 1}
+.cheatTable {width: 100%;position: relative;border-spacing: 0;padding: 0 0 0 5px;font-family: Acme, serif;}
+.cheatTable th {background: grey;color: black;height: 2vw;font-size: 1.5vw;text-align: right;}
+.cheatTable td {line-height: 1vw;padding: 1px 0 4px;border-bottom: 1px solid rgba(255,255,255,.04);}
+code {overflow-x: auto;padding: 0 4px;border: 1px solid rgba(192,201,200,.4);background-color: rgba(192,201,200,.2);border-radius: 2px;font-size: .75vw;}
+multi {overflow-x: auto;margin: .25vw;display: block;padding: .25vw;background: black;border-radius: 6px;border: none;line-height: 1.4vw;word-wrap: normal;font-family: monospace;font-size: .75vw; color: yellow;}
+pre code {overflow-x: auto;display: block;padding: .5em;background: black;border-radius: 6px;border: none;line-height: 1.4em;word-wrap: normal;color: white;}
+blockquote {
+  padding: 0 0 0 1em;
+  margin: 0 0 1.25em;
+  border-left: 5px solid #d6d6d6;
+}
+.entryWrap {position: absolute;top: 5vw;left: 1vw;height: 85vh;width: 49%;background: white;}
+.header {width: 100%;background: lightgrey;color: black;height: 2vw;padding: 0 0 0 1vw;font-family: Acme, serif;font-size: 1.5vw}
+#userText {margin: 1vw 0 0 1vw;width: 95%;height: 78vh;resize: none;border-style: none;border-color: Transparent;outline: none;overflow: auto;}
+.previewWrap {position: absolute;top: 5vw;right: 0;height: 85vh;width: 49%;background: white;}
+.marked {margin: 1vw;width: 95%;font-family: Arial, serif;font-size: 1vw;}
+.footer {position:fixed;bottom:5px;width:100%;height:auto;margin-top:40px;text-align:center;font-family: Acme, serif; font-size: calc(40% + .5vw);}
